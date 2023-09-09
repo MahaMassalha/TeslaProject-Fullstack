@@ -1,8 +1,27 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* Header-Section*/
+#header{
+    text-align: center;
+    background-color: rgb(19, 19, 80);
+    width: 100%;
+    height: 50px;
+    position:fixed;
+
+}
+.header-text{
+    color: white;
+    padding-top: 15px;
+    
+}
+.header-text a{
+    color: white;
+}
+
 /*Video-Section*/
 #background-video
  {
@@ -16,12 +35,133 @@
     bottom: 0;
     z-index: -1;
 }
+.Model3{
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    margin-top: 70px;
+}
+.Model3 h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/*Navbar*/
+#navbar{
+    background: transparent;
+    color: #fff;
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.logo{
+    float:left;
+    padding-top: 10px;
+    
+}
+
+#navbar ul{
+    text-align: center;
+    list-style: none;
+    float:right;
+    margin-right: 30%;
+}
+
+#navbar ul li {
+    float:left;
+}
+
+#navbar ul li button{
+    background-color: transparent;
+    color: white;
+    display: block;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    padding:3px 10px;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#navbar ul li button:hover{ 
+
+    background-color:rgb(219, 218, 218);
+    color:black
+}
+/*Three Info*/
+.Three-Info{
+    display: table;
+    margin-top: 200px;
+    color: white;
+    
+   margin-left: 36%;
+   
+}
+.Info{
+    padding-right: 60px;
+    display: table-cell;
+    text-align: center;
+    
+}
+.Info h1{
+    font-size: 30px;
+}
+.Info p{
+    padding-top: 10px;
+}
+/*Two Buttons*/
+.btn1{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding:10px 60px;
+    cursor: pointer;
+}
+.btn2{
+    background-color:transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding:10px 60px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn2:hover{
+    background-color: white;
+    color:black;
+}
+.two-buttons{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.videoText{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    
+}
+.videoText p a{
+    color: #fff;
+    
+}
+.videoText p{
+    margin-top: 0;
+}
+
 
 /* Safety-Design*/
 #safety-design
 {
     background:url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/model-3-hero-a-desktop')  no-repeat center center/cover;
-    height: 600px
+    height: 550px
+    
 }
 #safety-design-content
 {
@@ -74,11 +214,19 @@
     padding-bottom: 20px;
 }
 .plan{
-    padding:10px 55px;
+    padding:10px 60px;
     background: none;
     border: 3px solid black;
     border-radius: 5px;
+    cursor: pointer;
+}
+.plan:hover{
+    background-color: black;
+    color: white;
 }
 .part1 p {
     color: rgb(67, 65, 65);
+}
+.part1 a{
+    color:rgb(67, 65, 65); ;
 }
