@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Video-Section*/
+#background-video
+ {
+    width: 100vw;
+    height: 100vh; 
+    object-fit:cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Safety-Design*/
+#safety-design
+{
+    background:url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/model-3-hero-a-desktop')  no-repeat center center/cover;
+    height: 600px
+}
+#safety-design-content
+{
+    background-color: white;
+    padding: 170px;
+    line-height: 1.3em;
+}
+#safety-design-content h1,p{
+    padding-bottom: 30px;
+}
+.Star-Rating{
+    float: left;
+    width: 50%;
+}
+.Safety-Pick{
+    float: right;
+    width: 50%;
+}
+/*Map-Design*/
+#Map-section{
+    background: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Model-3-Range-Hero-Desktop-NA') no-repeat center center/cover;
+    height: 440px;
+}
+.Map-text{
+ margin-left: 50px;
+ line-height: 2em;
+}
+#Map-section h1{
+    padding-top: 40px;
+}
+/*Last Section*/
+#footer{
+    background-color: white;
+    height: 200px;
+}
+.part2{
+    float: left;
+    width: 40%;
+    padding: 40px;
+    padding-left: 120px;
+}
+.part1{
+    float: right;
+    width: 60%;
+    padding: 40px;
+    padding-right: 110px;
+    line-height: 1.3em;
+}
+#footer h1{
+    padding-bottom: 20px;
+}
+.plan{
+    padding:10px 55px;
+    background: none;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.part1 p {
+    color: rgb(67, 65, 65);
+}
