@@ -14,6 +14,7 @@
 
 }
 .header-text{
+    font-family: 'Rubik', sans-serif;
     color: white;
     padding-top: 15px;
     
@@ -40,6 +41,7 @@
     color: white;
     line-height: 1.5em;
     margin-top: 70px;
+    font-family: 'Rubik', sans-serif;
 }
 .Model3 h1{
     font-size: 40px;
@@ -57,12 +59,16 @@
     color: #fff;
     overflow: auto;
     padding-top: 60px;
+
 }
 
 .logo{
     float:left;
     padding-top: 10px;
-    
+}
+#navbar h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size:larger
 }
 
 #navbar ul{
@@ -70,6 +76,7 @@
     list-style: none;
     float:right;
     margin-right: 30%;
+    
 }
 
 #navbar ul li {
@@ -86,6 +93,7 @@
     text-align: center;
     margin-left: 5px;
     font-size: 15px;
+    font-family: 'Rubik', sans-serif;
 }
 
 #navbar ul li button:hover{ 
@@ -98,8 +106,9 @@
     display: table;
     margin-top: 200px;
     color: white;
-    
+    font-family: 'Rubik', sans-serif;
    margin-left: 36%;
+   
    
 }
 .Info{
@@ -109,10 +118,10 @@
     
 }
 .Info h1{
-    font-size: 30px;
+    font-size: 25px;
 }
 .Info p{
-    padding-top: 10px;
+    padding-top: 8px;
 }
 /*Two Buttons*/
 .btn1{
@@ -122,6 +131,8 @@
     border-radius: 5px;
     padding:10px 60px;
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size:15px;
 }
 .btn2{
     background-color:transparent;
@@ -131,6 +142,8 @@
     padding:10px 60px;
     cursor: pointer;
     margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size:15px;
 }
 .btn2:hover{
     background-color: white;
@@ -139,13 +152,15 @@
 .two-buttons{
     text-align: center;
     margin-top: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .videoText{
     text-align: center;
     color: #fff;
     padding-top: 30px;
-    
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
 }
 .videoText p a{
     color: #fff;
@@ -168,6 +183,10 @@
     background-color: white;
     padding: 170px;
     line-height: 1.3em;
+    font-family: 'Rubik', sans-serif;
+}
+#safety-design-content a{
+    color: rgb(79, 77, 77);
 }
 #safety-design-content h1,p{
     padding-bottom: 30px;
@@ -175,10 +194,15 @@
 .Star-Rating{
     float: left;
     width: 50%;
+    color: rgb(79, 77, 77);
 }
 .Safety-Pick{
     float: right;
-    width: 50%;
+    width: 48%;
+    color: rgb(79, 77, 77);
+}
+#safety-design-content p{
+    color: rgb(79, 77, 77);
 }
 /*Map-Design*/
 #Map-section{
@@ -188,6 +212,7 @@
 .Map-text{
  margin-left: 50px;
  line-height: 2em;
+ font-family: 'Rubik', sans-serif;
 }
 #Map-section h1{
     padding-top: 40px;
@@ -202,6 +227,7 @@
     width: 40%;
     padding: 40px;
     padding-left: 120px;
+    font-family: 'Rubik', sans-serif;
 }
 .part1{
     float: right;
@@ -209,6 +235,7 @@
     padding: 40px;
     padding-right: 110px;
     line-height: 1.3em;
+    font-family: 'Rubik', sans-serif;
 }
 #footer h1{
     padding-bottom: 20px;
@@ -219,6 +246,8 @@
     border: 3px solid black;
     border-radius: 5px;
     cursor: pointer;
+    font-size:15px;
+    font: bold;
 }
 .plan:hover{
     background-color: black;
